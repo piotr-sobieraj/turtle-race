@@ -73,7 +73,7 @@ class RacingTurtle:
 
 class Quiz:
     def __init__(self):
-        self.user_choice = screen.textinput("Put your bet!", "Are you ready to bowl?")
+        self.user_choice = screen.textinput("Put your bet!", "Are you ready to bet?")
         self.winner = ""
 
     def print_the_winner(self):
