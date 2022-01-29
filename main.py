@@ -68,7 +68,7 @@ class RacingTurtle:
         return self.turtle.xcor() >= abs(self.INITIAL_X)
 
     def get_color(self):
-        return self.turtle.color()[0]
+        return self.turtle.pencolor()
 
 
 class Quiz:
